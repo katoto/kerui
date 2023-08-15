@@ -1,7 +1,14 @@
 import React from 'react';
 import Img from '@/image/logo2.png';
 
-// http://www.sanjiedq.com/editor/attached/image/20190813/20190813164352_36699.jpg
+import Pro1 from '@/image/product/1.png';
+import Pro2 from '@/image/product/2.png';
+import Pro3 from '@/image/product/3.png';
+import Pro4 from '@/image/product/4.png';
+import Pro5 from '@/image/product/5.png';
+import Pro6 from '@/image/product/6.png';
+import Pro7 from '@/image/product/7.png';
+import Pro8 from '@/image/product/8.png';
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -242,8 +249,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'http://www.sanjiedq.com/editor/attached/lehome_thumb/20190814175747_82336.png',
+            children: Pro1,
           },
           content: { children: '矿用通讯信号系列' },
         },
@@ -256,8 +262,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'http://www.sanjiedq.com/editor/attached/lehome_thumb/20190814180400_32848.png',
+            children: Pro2,
           },
           content: { children: '声光语言报警器系列' },
         },
@@ -270,8 +275,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'http://www.sanjiedq.com/editor/attached/lehome_thumb/20190814181219_99978.jpg',
+            children: Pro3,
           },
           content: { children: '皮带机保护及控制系列' },
         },
@@ -284,8 +288,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'http://www.sanjiedq.com/editor/attached/lehome_thumb/20190814182105_93641.png',
+            children: Pro4,
           },
           content: { children: '扩播电话系列' },
         },
@@ -298,8 +301,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'http://www.sanjiedq.com/editor/attached/lehome_thumb/20190814182249_84781.png',
+            children: Pro5,
           },
           content: { children: '洒水降尘控制系列' },
         },
@@ -312,8 +314,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'http://www.sanjiedq.com/editor/attached/lehome_thumb/20190820102849_30184.png',
+            children: Pro6,
           },
           content: { children: '传感器系列' },
         },
@@ -326,8 +327,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'http://www.sanjiedq.com/editor/attached/lehome_thumb/20190814181448_89274.png',
+            children: Pro7,
           },
           content: { children: '隔爆型LED照明系列' },
         },
@@ -340,8 +340,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children:
-              'http://www.sanjiedq.com/editor/attached/lehome_thumb/20190814182441_95116.jpg',
+            children: Pro8,
           },
           content: { children: '隔爆型LED照明系列' },
         },
