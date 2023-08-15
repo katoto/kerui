@@ -51,7 +51,7 @@ export const Banner20DataSource = {
         page: { className: 'home-page banner2-page' },
         textWrapper: { className: 'banner2-text-wrapper' },
         bg: { className: 'bg bg0' },
-        title: { className: 'banner2-title', children: '宿州科瑞电器' },
+        title: { className: 'banner2-title', children: '科锐电器' },
         content: {
           className: 'banner2-content',
           children: '从事煤矿电子产品的研制开发、生产、销售和服务为一体的创新企业',
