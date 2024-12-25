@@ -25,7 +25,7 @@ export const Nav30DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: '/',
+          href: '/#/',
           children: [{ children: '首页', name: 'text' }],
         },
       },
@@ -33,7 +33,7 @@ export const Nav30DataSource = {
         name: 'item2',
         className: 'header3-item',
         children: {
-          href: '/timeline',
+          href: '/#/timeline',
           children: [{ children: '发展历程', name: 'text' }],
         },
       },
@@ -41,7 +41,7 @@ export const Nav30DataSource = {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href: '/about',
+          href: '/#/about',
           children: [{ children: '关于我们', name: 'text' }],
         },
       },
@@ -68,10 +68,10 @@ export const Banner20DataSource = {
           style: { lineHeight: '28px', color: '#fff' }, 
           className: 'test',
           children: '了解更多',
-          href: '/timeline',
+          href: '/#/timeline',
           onClick: (e) => {
             e.preventDefault();
-            window.location.href = '/timeline';
+            window.location.href = '/#/timeline';
           },
         },
       },
