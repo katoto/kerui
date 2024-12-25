@@ -1,10 +1,17 @@
-
 export default {
-  exportStatic: {
-    htmlSuffix: true,
-    dynamicRoot: true,
+  nodeModulesTransform: {
+    type: 'none',
   },
-  targets: {
-    ie: 11,
+  routes: [
+    { path: '/', component: '@/pages/index' },
+    { path: '/timeline', component: '@/pages/Timeline' },
+    { path: '/about', component: '@/pages/About' }
+  ],
+  antd: {
+    dark: false,
+    compact: false,
   },
+  mfsu: false,
+  fastRefresh: {},
+  webpack5: {}
 }

@@ -1,0 +1,51 @@
+{
+  "deps": {
+    "$CWD$/node_modules/@umijs/renderer-react/dist/index.js": "3.5.43",
+    "$CWD$/node_modules/@umijs/runtime": "3.5.43",
+    "regenerator-runtime/runtime": "0.13.5",
+    "core-js": "3.6.5",
+    "react": "16.14.0",
+    "enquire-js": "0.2.1",
+    "@ant-design/icons": "4.8.3",
+    "antd/es/timeline": "4.24.16",
+    "antd/es/timeline/style": "4.24.16",
+    "$CWD$/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/slicedToArray.js": "7.18.6",
+    "rc-scroll-anim/lib/ScrollOverPack": "2.7.6",
+    "rc-tween-one": "2.7.3",
+    "$CWD$/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/extends.js": "7.18.6",
+    "antd/es/menu": "4.24.16",
+    "antd/es/menu/style": "4.24.16",
+    "$CWD$/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js": "7.18.6",
+    "$CWD$/node_modules/@umijs/plugin-model/node_modules/fast-deep-equal/index.js": "3.1.1",
+    "rc-banner-anim/assets/index.css": "2.4.5",
+    "rc-banner-anim": "2.4.5",
+    "rc-queue-anim": "1.8.5",
+    "antd/es/button": "4.24.16",
+    "antd/es/button/style": "4.24.16",
+    "antd/es/col": "4.24.16",
+    "antd/es/col/style": "4.24.16",
+    "antd/es/row": "4.24.16",
+    "antd/es/row/style": "4.24.16",
+    "rc-tween-one/lib/plugin/ChildrenPlugin": "2.7.3",
+    "antd/es/carousel": "4.24.16",
+    "antd/es/carousel/style": "4.24.16",
+    "$CWD$/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/objectSpread2.js": "7.18.6",
+    "$CWD$/node_modules/@ahooksjs/use-request": "2.8.15",
+    "@umijs/plugin-request/lib/ui": "2.8.0",
+    "$CWD$/node_modules/umi-request": "1.4.0",
+    "$CWD$/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js": "7.18.6",
+    "$CWD$/node_modules/@umijs/babel-preset-umi/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js": "7.18.6",
+    "$CWD$/node_modules/react-helmet": "6.1.0"
+  },
+  "config": {
+    "theme": {
+      "root-entry-name": "default",
+      "@primary-color": "#1890ff"
+    },
+    "externals": {},
+    "runtimePublicPath": true,
+    "umiVersion": "3.5.43",
+    "bigfishVersion": "null"
+  },
+  "tmpDeps": {}
+}

@@ -1,0 +1,94 @@
+.about-page {
+  min-height: 100vh;
+  background: #fff;
+
+  .about-container {
+    min-height: calc(100vh - 64px - 200px);
+    background: #fff;
+    padding: 80px 10%;
+    
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .company-intro {
+      max-width: 1000px;
+      margin: 0 auto;
+
+      .text-content {
+        background: #f5f5f5;
+        padding: 40px;
+        border-radius: 8px;
+        margin-bottom: 40px;
+
+        h2 {
+          font-size: 28px;
+          color: #cf1322;
+          margin-bottom: 24px;
+          text-align: center;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 1.8;
+          margin-bottom: 16px;
+          color: #333;
+          text-align: justify;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .company-features {
+        h3 {
+          font-size: 24px;
+          color: #333;
+          margin-bottom: 30px;
+          text-align: center;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 30px;
+
+          li {
+            background: #fff;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+
+            &:hover {
+              transform: translateY(-5px);
+            }
+
+            .feature-title {
+              display: block;
+              font-size: 20px;
+              font-weight: bold;
+              color: #cf1322;
+              margin-bottom: 12px;
+            }
+
+            p {
+              font-size: 16px;
+              line-height: 1.6;
+              color: #666;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+} 
