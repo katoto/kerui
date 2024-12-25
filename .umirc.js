@@ -13,5 +13,16 @@ export default {
   },
   mfsu: false,
   fastRefresh: {},
-  webpack5: {}
+  webpack5: {},
+  copy: [
+    {
+      from: './public',
+      to: 'dist'
+    }
+  ],
+  history: {
+    type: 'browser'
+  },
+  exportStatic: {},
+  publicPath: './',
 }
