@@ -5,6 +5,10 @@ import Pro1 from '@/image/product/1.png';
 import Pro2 from '@/image/product/2.png';
 import Pro3 from '@/image/product/3.png';
 import Pro4 from '@/image/product/4.png';
+import Pro11 from '@/image/product/1-1.png';
+import Pro22 from '@/image/product/2-2.png';
+import Pro33 from '@/image/product/3-3.png';
+import Pro44 from '@/image/product/4-4.png';
 import Pro5 from '@/image/product/5.png';
 import Pro6 from '@/image/product/6.png';
 import Pro7 from '@/image/product/7.png';
@@ -272,6 +276,58 @@ export const Content50DataSource = {
     className: 'content5-img-wrapper',
     gutter: 16,
     children: [
+      {
+        name: 'block00',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children: Pro11,
+          },
+          content: { children: 'KHJ12矿用本安型双向急停开关' },
+        },
+      },
+      {
+        name: 'block11',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children: Pro22,
+          },
+          content: { children: 'GEJ40矿用本质安全型跑偏传感器' },
+        },
+      },
+      {
+        name: 'block22',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children: Pro33,
+          },
+          content: { children: 'KXJ127(A)型矿用隔爆可编程电控箱' },
+        },
+      },
+      {
+        name: 'block33',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children: Pro44,
+          },
+          content: { children: 'KXJ127矿用隔爆兼本安型电源控制箱' },
+        },
+      },
       {
         name: 'block0',
         className: 'block',
